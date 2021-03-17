@@ -1,0 +1,138 @@
+* {
+    text-align: center;
+    align-items: center;
+    
+}
+
+h1 {
+   
+    font-size: 50px;
+    font-size: 4vw;
+}
+
+
+body {
+    background-color:black;
+
+
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.encabezado {
+    /* height: 60px;
+    width: 40vw; */
+    /* margin-top: 12px; */
+    padding-top: 12pt;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns:  10% 75% 15%;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "logo titulo tresbotones"
+    "logo subtitulo tresbotones";
+}
+
+.logo {
+    grid-area: logo;
+    font-size: 3vw;
+    text-align: right;
+
+}
+.titulo {
+    grid-area: titulo;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.50vw;
+    /* padding-top: 15px; */
+    /* font-size: larger; */
+}
+.subtitulo { 
+    grid-area: subtitulo;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 1vw;
+}
+
+.tresbotones {
+    grid-area: tresbotones;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 2.5vw;
+    /* float: right; */
+    color: black;
+
+    
+    
+}
+
+.pie {
+    padding-top: 15px;
+    color: seashell;
+    
+}
+.feed {
+    justify-content: center;
+    /* height: 450px; */
+    width: 40vw;
+    /* width: 400px; */
+
+    margin-top: 25px;
+    /* background-color: white; */
+    background-color:lavenderblush;
+    border-radius: 8px;
+}
+
+.imagen > img {
+    width: 40vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagen{
+    padding: 0px;
+    margin: 0px;
+}
+
+.info {
+
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 1.2vw;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.botones {
+    font-size: 2vw;
+    margin-bottom: 10px !important;
+ 
+}
+.botones .conjunto1 {
+    float: left;
+    padding-left: 10px;
+}
+
+.botones .conjunto2 {
+    float: right;
+    padding-right: 10px;
+}
+
+.megusta {
+   align-content: flex-start;
+    margin-top: 5px;
+    font-size: 1.2vw;
+    padding-left: 10px;
+}
+.megusta p {
+    text-align: left;
+}
